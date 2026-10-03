@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "mysordrop",
+  "version": "1.0.0",
+  "name": "MYSOR DROP",
+  "environment": "client",
+  "entrypoints": { "client": ["mysordrop.MysorDropClient"] },
+  "depends": { "fabricloader": ">=0.15.0", "minecraft": "1.20.1", "fabric-api": "*" }
+}
